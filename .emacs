@@ -4,6 +4,7 @@
 ;; DESCRIPTION | emacs initialization file
 ;; ------------------------------------------------------------------------------
 
+;; user information
 (setq user-full-name    "Sameh Kamal"
       user-mail-address "sameh.kamaleldin@gmail.com"
       package-enable-at-startup nil)
@@ -20,8 +21,13 @@
   (menu-bar-mode   0 )
   (scroll-bar-mode 0 )
 
+  ;; global keybindings
   (global-set-key "\M-r"      '(lambda () (interactive) (load-file "~/.emacs"))  )
   (global-set-key (kbd "RET") 'newline-and-indent                                )
   (global-set-key (kbd "C-;") 'comment-or-uncomment-region                       )
-  
+
+  ;; packages configuration
+  (use-package magit
+     :ensure t
+     :bind ("C-x C-g" . magit-status))  
 )

@@ -17,12 +17,14 @@
 
   (package-initialize)
 
-  (require 'use-package)
   ;; Bootstrap  use-package
   (unless (package-installed-p 'use-package)
     (package-refresh-contents)
-    (package-install 'use-package))
-  
+    (package-install 'use-package)
+  )
+
+  (require 'use-package)
+
   ;; configure menus  
   (tool-bar-mode   0 )
   (menu-bar-mode   0 )

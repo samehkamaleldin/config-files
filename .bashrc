@@ -1,3 +1,8 @@
+# ------------------------------------------------------------------------------
+# FILE        | .bashrc
+# AUTHOR      | sameh kamal
+# DESCRIPTION | bash initialization file
+# ------------------------------------------------------------------------------
 
 TERM=xterm
 PATH=$PATH:/usr/local/MATLAB/MATLAB_Production_Server/R2013a/bin

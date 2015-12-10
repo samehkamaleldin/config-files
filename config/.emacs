@@ -12,7 +12,7 @@
 (when (>= emacs-major-version 24)
 
   (require 'package)
-  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"      ) t)
+  (add-to-list 'package-archives '("melpa"     . "http://melpa.milkbox.net/packages/"  ) t)
   (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/" )  )
 
   (package-initialize)
@@ -30,6 +30,9 @@
   (menu-bar-mode   0 )
   (scroll-bar-mode 0 )
 
+  ;; configure line number format
+  (setq linum-format "%d ")
+  
   ;; global keybindings
   (global-set-key "\M-r"      '(lambda () (interactive) (load-file "~/.emacs"))  )
   (global-set-key (kbd "RET") 'newline-and-indent                                )

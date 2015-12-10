@@ -8,12 +8,12 @@
 printf "> Applying configuration files to current system\n"
 
 printf "= .bashrc \n"
-cp ./.bashrc  ~/.bashrc
+cp ./config/.bashrc  ~/.bashrc
 
 printf "= .emacs \n"
-cp ./.emacs   ~/.emacs
+cp ./config/.emacs   ~/.emacs
 
 printf "= .xinitrc \n"
-cp ./.xinitrc ~/.xinitrc
+cp ./config/.xinitrc ~/.xinitrc
 
 printf "> Done.\n"

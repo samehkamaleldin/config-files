@@ -15,3 +15,6 @@ files in this rep are structured as follows:-
 ├── LICENSE                                                                       
 └── README.md
 ```
+
+<br>
+> Copyright (c) 2015 Sameh Kamal. Licensed under the MIT license.

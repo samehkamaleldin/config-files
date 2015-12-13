@@ -30,8 +30,12 @@
   (menu-bar-mode   0 )
   (scroll-bar-mode 0 )
 
+  ;; configure theme
+  (load-theme 'seti t)
+  
   ;; configure line number format
-  (setq linum-format "%d ")
+  (global-linum-mode t)
+  (setq linum-format " %d ")
   
   ;; global keybindings
   (global-set-key "\M-r"      '(lambda () (interactive) (load-file "~/.emacs"))  )

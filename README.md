@@ -6,12 +6,11 @@ files in this rep are structured as follows:-
 ``` bash
 .
 ├── apply-configs.sh
-│
+├── startup.sh
 ├── config
 │   ├── .bashrc
 │   ├── .emacs
 │   └── .xinitrc
-│
 ├── LICENSE                                                                       
 └── README.md
 ```

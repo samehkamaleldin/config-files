@@ -35,7 +35,10 @@
   
   ;; configure line number format
   (global-linum-mode t)
-  (setq linum-format " %d ")
+  (setq linum-format "%4d")
+
+  ;; configre font
+  (set-default-font "Monospace 10")
   
   ;; global keybindings
   (global-set-key "\M-r"      '(lambda () (interactive) (load-file "~/.emacs"))  )

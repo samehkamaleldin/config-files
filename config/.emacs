@@ -45,6 +45,11 @@
   (global-set-key (kbd "RET") 'newline-and-indent                                )
   (global-set-key (kbd "C-;") 'comment-or-uncomment-region                       )
 
+  ;; multi-cursor bindings
+  (global-set-key (kbd "C->") 'mc/mark-next-like-this)
+  (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+  (global-set-key (kbd "C-?") 'mc/mark-all-like-this)
+  
   ;; packages configuration
   (use-package magit
      :ensure t

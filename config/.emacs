@@ -35,7 +35,7 @@
   
   ;; configure line number format
   (global-linum-mode t)
-  (setq linum-format "%4d")
+  (setq linum-format "%4d ")
 
   ;; configre font
   (set-default-font "Monospace 10")

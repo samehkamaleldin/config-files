@@ -17,6 +17,8 @@ mkdir -p /tmp/pkginit
 # run the install script from homebrew github rep
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew install coreutils
+brew cask install java python3
 
 # ------------------------------------------------------------------------------
 #  pip3 - the python package manager 

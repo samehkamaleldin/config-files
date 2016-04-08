@@ -11,10 +11,8 @@
 
 (when (>= emacs-major-version 24)
 
-
   ;; load package initalization script
   (load-file "~/.emacs.d/emacs-pkginit")
-
   (require 'use-package)
   
   ;; configure menus  
@@ -24,6 +22,10 @@
 
   ;; configure theme
   (load-theme 'seti t)
+
+  ;; enable git diff
+  (diff-hl-mode         1)
+  (diff-hl-flydiff-mode 1)
   
   ;; configure line number format
   (global-linum-mode t)

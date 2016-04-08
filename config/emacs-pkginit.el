@@ -26,6 +26,7 @@
 	  popup
 	  multiple-cursors
 	  dired+
+	  diff-hl
 	  ))
 
 

@@ -10,10 +10,8 @@ printf "> Applying configuration files to current system\n"
 printf "= .bashrc \n"
 cp ./config/.bashrc  ~/.bashrc
 
-printf "= .emacs \n"
+printf "= applying emacs configuration ... \n"
 cp ./config/.emacs   ~/.emacs
-
-printf "= .xinitrc \n"
-cp ./config/.xinitrc ~/.xinitrc
+cp ./config/emacs-pkginit.el ~/.emacs.d/
 
 printf "> Done.\n"

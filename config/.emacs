@@ -20,12 +20,19 @@
   (menu-bar-mode   0 )
   (scroll-bar-mode 0 )
 
+  ;; hilghlight parantheses
+  (require 'highlight-parentheses)
+  (define-globalized-minor-mode global-highlight-parentheses-mode highlight-parentheses-mode
+    (lambda nil (highlight-parentheses-mode t)))
+
+  (global-highlight-parentheses-mode t)
+
   ;; configure theme
   (load-theme 'seti t)
 
   ;; enable git diff
-  (diff-hl-mode         1)
-  (diff-hl-flydiff-mode 1)
+  (diff-hl-mode         t)
+  (diff-hl-flydiff-mode t)
   
   ;; configure line number format
   (global-linum-mode t)
@@ -51,4 +58,4 @@
   (use-package magit
      :ensure t
      :bind ("C-x C-g" . magit-status))  
-  )
+)

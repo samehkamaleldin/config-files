@@ -27,7 +27,10 @@
 	  multiple-cursors
 	  dired+
 	  diff-hl
-	  ))
+	  org
+	  org-bullets
+	  )
+       )
 
 
 ; activate all the packages

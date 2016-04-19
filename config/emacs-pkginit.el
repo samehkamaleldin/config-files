@@ -29,9 +29,8 @@
 	  diff-hl
 	  org
 	  org-bullets
-	  )
        )
-
+)
 
 ; activate all the packages
 (package-initialize)

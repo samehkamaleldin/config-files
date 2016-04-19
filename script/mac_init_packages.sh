@@ -8,6 +8,9 @@
 # = preconditions :- runs on mac osx 10.11.x
 # ==============================================================================
 
+
+
+
 # create a temporary directory and enter it
 mkdir -p /tmp/pkginit
 

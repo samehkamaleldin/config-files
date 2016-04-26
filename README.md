@@ -11,7 +11,7 @@ files in this rep are structured as follows:-
 │   ├── .bashrc
 │   ├── .emacs
 │   └── .xinitrc
-├── LICENSE                                                                       
+├── LICENSE
 └── README.md
 ```
 

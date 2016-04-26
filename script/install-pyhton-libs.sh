@@ -14,6 +14,7 @@ pip3 install sklearn
 pip3 install https://storage.googleapis.com/tensorflow/mac/tensorflow-0.7.1-cp35-none-any.whl
 pip3 install rope
 pip3 install jedi
+
 # flake8 for code checks
 pip3 install flake8
 # importmagic for automatic imports
@@ -22,3 +23,10 @@ pip3 install importmagic
 pip3 install autopep8
 # and yapf for code formatting
 pip3 install yapf
+# requirement of tomoe evalulation framework
+pip3 install --upgrade git+git://github.com/scipy/scipy.git 
+pip3 install --upgrade git+git://github.com/fchollet/keras.git
+pip3 install --upgrade requests
+pip3 install --upgrade git+git://github.com/mnick/scikit-tensor.git
+pip3 install --upgrade rdflib
+pip3 install --upgrade networkx

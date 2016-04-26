@@ -18,16 +18,17 @@
 	  flycheck
 	  elpy
 	  seti-theme
-	  highlight-indentation
-	  auto-complete
+      	  auto-complete
 	  magit
+	  highlight-parentheses
 	  multiple-cursors
+	  markdown-mode
+	  markdown-mode+
 	  dired+
 	  diff-hl
 	  org
-	  )
        )
-
+)
 
 ; activate all the packages
 (package-initialize)

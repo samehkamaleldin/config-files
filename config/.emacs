@@ -33,14 +33,16 @@
   ;; enable git diff
   (diff-hl-mode         t)
   (diff-hl-flydiff-mode t)
-  
+
+  ;; enable elpy mode for python dev
+  (elpy-enable)
   ;; configure line number format
   (global-linum-mode t)
   (setq linum-format "%4d ")
 
   ;; configre font
   (set-default-font "Monospace 13")
-  
+
   ;; global keybindings
   (global-set-key (kbd "C-v"  ) 'clipboard-yank  )
   (global-set-key (kbd "C-x d") 'delete-char  )

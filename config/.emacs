@@ -12,7 +12,7 @@
 (when (>= emacs-major-version 24)
 
   ;; load package initalization script
-  (load-file "~/.emacs.d/emacs-pkginit")
+  (load-file "~/.emacs.d/emacs-pkginit.el")
   (require 'use-package)
   
   ;; configure menus  

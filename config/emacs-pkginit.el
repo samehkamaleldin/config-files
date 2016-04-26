@@ -9,26 +9,22 @@
 
 (add-to-list 'package-archives '("elpy"         . "http://jorgenschaefer.github.io/packages/" ))
 (add-to-list 'package-archives '("marmalade"    . "http://marmalade-repo.org/packages/"       ))
-(add-to-list 'package-archives '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/") t)
-
+(add-to-list 'package-archives '("melpa"        . "http://melpa.org/packages/"                ) t)
 
 ; list the packages you want
 (setq package-list
       '(  use-package
 	  python-environment
-	  seti-theme
 	  flycheck
 	  elpy
+	  seti-theme
 	  highlight-indentation
 	  auto-complete
 	  magit
-	  minimap
-	  popup
 	  multiple-cursors
 	  dired+
 	  diff-hl
 	  org
-	  org-bullets
 	  )
        )
 

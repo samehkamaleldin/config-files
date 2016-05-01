@@ -17,9 +17,11 @@
 	  python-environment
 	  flycheck
 	  elpy
+	  jedi
 	  seti-theme
       	  auto-complete
 	  magit
+	  yasnippet
 	  highlight-parentheses
 	  multiple-cursors
 	  markdown-mode

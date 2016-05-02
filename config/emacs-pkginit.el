@@ -1,8 +1,9 @@
-;; ------------------------------------------------------------------------------
-;; FILE        | .emacs-pkginit.el
-;; AUTHOR      | sameh kamal
-;; DESCRIPTION | emacs initial packages installation
-;; ------------------------------------------------------------------------------
+
+;;; ------------------------------------------------------------------------------
+;;; FILE        | .emacs-pkginit.el
+;;; AUTHOR      | sameh kamal
+;;; DESCRIPTION | emacs initial packages installation
+;;; ------------------------------------------------------------------------------
 
 
 (require 'package)
@@ -43,3 +44,5 @@
 (dolist (package package-list)
   (unless (package-installed-p package)
     (package-install package)))
+
+;;; emacs-pkginit.el ends here

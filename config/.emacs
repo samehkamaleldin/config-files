@@ -33,6 +33,8 @@
   (elpy-enable)
   ;; auto-complete default config
   (ac-config-default)
+  ;; enable flycheck global mode
+  (global-flycheck-mode)
   ;; enable git diff
   (diff-hl-mode         t)
   (diff-hl-flydiff-mode t)

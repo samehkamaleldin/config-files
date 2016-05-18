@@ -1,10 +1,8 @@
-
-;;; ------------------------------------------------------------------------------
-;;; FILE        | .emacs-pkginit.el
-;;; AUTHOR      | sameh kamal
-;;; DESCRIPTION | emacs initial packages installation
-;;; ------------------------------------------------------------------------------
-
+;; ------------------------------------------------------------------------------
+;; FILE        | .emacs-pkginit.el
+;; AUTHOR      | sameh kamal
+;; DESCRIPTION | emacs initial packages installation
+;; ------------------------------------------------------------------------------
 
 (require 'package)
 
@@ -23,6 +21,7 @@
       	  auto-complete
 	  magit
 	  yasnippet
+	  auctex
 	  highlight-parentheses
 	  multiple-cursors
 	  markdown-mode

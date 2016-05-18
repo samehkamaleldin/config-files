@@ -16,6 +16,7 @@
   (add-to-list 'load-path "~/.emacs.d/snippets")
   (require 'yasnippet)
   (require 'use-package)
+  (require 'tex-mik)
   
   ;; hilghlight parantheses
   (require 'highlight-parentheses)
@@ -42,6 +43,18 @@
   (yas-global-mode      t)
   ;; enable highlight parentheses 
   (global-highlight-parentheses-mode t)
+  ;; auctex config
+  (load "auctex.el" nil t t)
+  setq TeX-auto-save t)
+  (setq TeX-parse-self t)
+  (setq-default TeX-master nil)
+  (add-hook 'LaTeX-mode-hook 'visual-line-mode)
+  (add-hook 'LaTeX-mode-hook 'flyspell-mode)
+  (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
+  (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+  (setq reftex-plug-into-AUCTeX t)
+  (setq TeX-PDF-mode t)
+
   ;; configure line number format
   (global-linum-mode t)
   (setq linum-format "%4d ")
@@ -70,4 +83,4 @@
   (use-package magit
      :ensure t
      :bind ("C-x C-g" . magit-status))  
-)
+  )

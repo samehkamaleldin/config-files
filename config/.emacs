@@ -45,7 +45,7 @@
   (global-highlight-parentheses-mode t)
   ;; auctex config
   (load "auctex.el" nil t t)
-  setq TeX-auto-save t)
+  (setq TeX-auto-save t)
   (setq TeX-parse-self t)
   (setq-default TeX-master nil)
   (add-hook 'LaTeX-mode-hook 'visual-line-mode)
